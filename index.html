@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HackaMarathon - Xtreme Club</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="typing-text" id="typing"></h1>
+      <p class="sub-heading">Code. Innovate. Dominate.</p>
+      <div class="countdown" id="countdown"></div>
+      <button class="register-btn" id="openModal">Register</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="event-details">
+      <h2>About HackaMarathon</h2>
+      <p>
+        <strong>HackaMarathon 2025</strong> is a 6-hour coding sprint hosted by <strong>Xtreme Club</strong>, 
+        aimed at encouraging innovation and real-world problem-solving. <br>
+        Whether you're a beginner or a pro, this event will challenge your skills, creativity, and teamwork. <br>
+        A <strong>Hackathon</strong> is an intense, time-bound event where programmers, designers, and innovators 
+        come together to build creative solutions to real-world problems. <br>
+        It’s a space for collaboration, rapid prototyping, and learning, where participants brainstorm ideas, 
+        code innovative applications, and often compete for prizes—all within a limited timeframe. <br>
+        Hackathons foster teamwork, creativity, and problem-solving under pressure, making them perfect for 
+        tech enthusiasts looking to challenge themselves and bring ideas to life. <br>
+        Build amazing tech solutions, apps, or tools around themes like <strong>education</strong>, 
+        <strong>sustainability</strong>, or <strong>automation</strong>!
+    </p>
+    
+
+      <h3>🗓 Date & Time</h3>
+      <p class="highlight date">April 25, 2025 | 2:30 PM – 8:30 PM</p>
+
+      <h3>📍 Location</h3>
+      <p class="highlight location">Noida Institute of Engineering and Technology (NIET)</p>
+    </section>
+
+    <section class="benefits">
+      <h2>Why Join?</h2>
+      <ul>
+        <li>🚀 6 hours of coding thrill</li>
+        <li>💡 Real-world project ideas</li>
+        <li>🤝 Meet mentors & developers</li>
+        <li>🏆 Certificates, prizes & recognition</li>
+        <li>🎯 Learn by building, not just listening</li>
+      </ul>
+    </section>
+
+    <section class="club-info">
+      <h2>About Xtreme Club</h2>
+      <p>
+        <strong>Xtreme Club</strong> is NIET’s premium coding community. We host hackathons, coding challenges, 
+        workshops, and technical fests that push students beyond the classroom. <br>
+        Our goal is to ignite passion for innovation and tech development among all students. <br>
+        <strong>Xtreme Coding Club</strong> is the official coding community of 
+        <strong>Noida Institute of Engineering and Technology</strong>, dedicated to nurturing programming talent 
+        and innovation among students. <br>
+        Under the expert guidance of <strong>Rajveer Sharma Sir</strong>, the club organizes a variety of events like 
+        hackathons, coding competitions, workshops, and tech talks. <br>
+        It serves as a vibrant platform for aspiring developers to collaborate, enhance their coding skills, 
+        and stay updated with the latest trends in technology. <br>
+        With a focus on practical learning and problem-solving, <strong>Xtreme Club</strong> aims to create the next 
+        generation of tech leaders and innovators.
+    </p>
+    
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>📧 Contact us: xtremeclub@nietsocial.in</p>
+  </footer>
+
+  <!-- MODAL FORM -->
+  <div id="registrationModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn" id="closeModal">&times;</span>
+      <h2>Register for HackaMarathon</h2>
+      <form id="registerForm">
+        <input type="text" name="name" placeholder="Full Name" required />
+        <input type="text" name="branch" placeholder="Branch" required />
+        <input type="text" name="section" placeholder="Section" required />
+        <input type="text" name="year" placeholder="Year" required />
+        <input type="text" name="roll" placeholder="Roll No" required />
+        <input type="email" name="email" placeholder="College Email" required />
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
